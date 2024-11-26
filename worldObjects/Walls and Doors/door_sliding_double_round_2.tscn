@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://blwj1r2rdye81"]
+
+[ext_resource type="PackedScene" uid="uid://c4rkmhvvxeswt" path="res://models/prototyping/models/door-sliding-double-round.glb" id="1_oxu4f"]
+[ext_resource type="Script" path="res://scripts/door.gd" id="2_td8qr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uj61s"]
+size = Vector3(2.70837, 2, 0.5)
+
+[node name="door-sliding-double-round2" instance=ExtResource("1_oxu4f")]
+script = ExtResource("2_td8qr")
+
+[node name="door-sliding-double-round" parent="." index="0"]
+transform = Transform3D(-8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("BoxShape3D_uj61s")

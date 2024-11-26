@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://mrjv5k55tbrs"]
+
+[ext_resource type="PackedScene" uid="uid://dt37qocr4w2fl" path="res://models/prototyping/models/wall-corner-low.glb" id="1_v2wm7"]
+[ext_resource type="Material" uid="uid://dvm1yo4wbfx7r" path="res://worldObjects/Materials/Material.tres" id="2_6km2b"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_hcp4p"]
+data = PackedVector3Array(0.3, 0.5, -0.3, 0.3, 0, -0.3, -0.5, 0, -0.3, -0.5, 0, -0.3, -0.5, 0.5, -0.3, 0.3, 0.5, -0.3, -0.5, 0, -0.3, -0.5, 0, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.3, -0.5, 0, -0.3, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.3, 0.5, 0.5, 0.3, 0.5, 0.5, 0.3, 0.5, -0.3, 0.5, 0.5, -0.5, 0.3, 0.5, -0.3, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, 0.3, 0.5, -0.3, -0.5, 0.5, -0.3, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, 0.5, 0.5, -0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0, -0.5, 0.3, 0, 0.5, 0.3, 0, -0.3, 0.3, 0.5, -0.3, 0.3, 0.5, -0.3, 0.3, 0.5, 0.5, 0.3, 0, 0.5, 0.3, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.3, 0, -0.3, 0.3, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.3, 0, -0.3, -0.5, 0, -0.5, -0.5, 0, -0.3, 0.3, 0, -0.3, 0.5, 0.5, 0.5, 0.5, 0, 0.5, 0.3, 0, 0.5, 0.3, 0, 0.5, 0.3, 0.5, 0.5, 0.5, 0.5, 0.5)
+
+[node name="wall-corner-low2" instance=ExtResource("1_v2wm7")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="wall-corner-low" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_6km2b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_hcp4p")

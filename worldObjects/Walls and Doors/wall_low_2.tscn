@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dg1smkf7714ul"]
+
+[ext_resource type="PackedScene" uid="uid://bgmhjlos6fhnr" path="res://models/prototyping/models/wall-low.glb" id="1_fhfgr"]
+[ext_resource type="Material" uid="uid://dvm1yo4wbfx7r" path="res://worldObjects/Materials/Material.tres" id="2_at6es"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r835t"]
+data = PackedVector3Array(0.1, 0.5, 0.5, 0.1, 0.5, -0.5, 0.1, 0, -0.5, 0.1, 0, -0.5, 0.1, 0, 0.5, 0.1, 0.5, 0.5, -0.1, 0.5, -0.5, -0.1, 0, -0.5, 0.1, 0, -0.5, 0.1, 0, -0.5, 0.1, 0.5, -0.5, -0.1, 0.5, -0.5, -0.1, 0, 0.5, -0.1, 0, -0.5, -0.1, 0.5, -0.5, -0.1, 0.5, -0.5, -0.1, 0.5, 0.5, -0.1, 0, 0.5, 0.1, 0.5, 0.5, 0.1, 0, 0.5, -0.1, 0, 0.5, -0.1, 0, 0.5, -0.1, 0.5, 0.5, 0.1, 0.5, 0.5, -0.1, 0, 0.5, 0.1, 0, 0.5, 0.1, 0, -0.5, 0.1, 0, -0.5, -0.1, 0, -0.5, -0.1, 0, 0.5, -0.1, 0.5, -0.5, 0.1, 0.5, -0.5, 0.1, 0.5, 0.5, 0.1, 0.5, 0.5, -0.1, 0.5, 0.5, -0.1, 0.5, -0.5)
+
+[node name="wall-low2" instance=ExtResource("1_fhfgr")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="wall-low" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_at6es")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_r835t")

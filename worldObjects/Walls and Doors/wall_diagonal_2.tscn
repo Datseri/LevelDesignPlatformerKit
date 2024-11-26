@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://fjj86jj3hqd0"]
+
+[ext_resource type="PackedScene" uid="uid://bobeiftpdfg2x" path="res://models/prototyping/models/wall-diagonal.glb" id="1_6fu7a"]
+[ext_resource type="Material" uid="uid://dvm1yo4wbfx7r" path="res://worldObjects/Materials/Material.tres" id="2_n4twu"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ilutg"]
+data = PackedVector3Array(-0.4, 1, -0.3, -0.4, 0, -0.3, -0.5, 0, -0.3, -0.5, 0, -0.3, -0.5, 1, -0.3, -0.4, 1, -0.3, -0.5, 0, -0.3, -0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 1, -0.5, -0.5, 1, -0.3, -0.5, 0, -0.3, 0.5, 1, 0.5, 0.5, 1, 0.3, 0.5, 0, 0.3, 0.5, 0, 0.3, 0.5, 0, 0.5, 0.5, 1, 0.5, -0.5, 0, -0.5, -0.3, 0, -0.5, -0.3, 1, -0.5, -0.3, 1, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, 0.3, 0, 0.5, 0.3, 0, 0.4, 0.3, 1, 0.4, 0.3, 1, 0.4, 0.3, 1, 0.5, 0.3, 0, 0.5, 0.3, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, 0.3, 0.5, 0, 0.3, 0.3, 0, 0.4, 0.3, 0, 0.5, 0.5, 0, 0.3, -0.3, 0, -0.5, 0.3, 0, 0.4, -0.3, 0, -0.5, -0.4, 0, -0.3, 0.3, 0, 0.4, -0.3, 0, -0.5, -0.5, 0, -0.5, -0.4, 0, -0.3, -0.5, 0, -0.5, -0.5, 0, -0.3, -0.4, 0, -0.3, 0.5, 1, 0.5, 0.5, 0, 0.5, 0.3, 0, 0.5, 0.3, 0, 0.5, 0.3, 1, 0.5, 0.5, 1, 0.5, -0.4, 1, -0.3, -0.5, 1, -0.3, -0.5, 1, -0.5, -0.4, 1, -0.3, -0.5, 1, -0.5, -0.3, 1, -0.5, 0.3, 1, 0.4, -0.4, 1, -0.3, -0.3, 1, -0.5, -0.3, 1, -0.5, 0.5, 1, 0.3, 0.3, 1, 0.4, 0.3, 1, 0.5, 0.3, 1, 0.4, 0.5, 1, 0.3, 0.5, 1, 0.3, 0.5, 1, 0.5, 0.3, 1, 0.5, -0.3, 1, -0.5, -0.3, 0, -0.5, 0.5, 0, 0.3, 0.5, 0, 0.3, 0.5, 1, 0.3, -0.3, 1, -0.5, 0.3, 1, 0.4, 0.3, 0, 0.4, -0.4, 0, -0.3, -0.4, 0, -0.3, -0.4, 1, -0.3, 0.3, 1, 0.4)
+
+[node name="wall-diagonal2" instance=ExtResource("1_6fu7a")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="wall-diagonal" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_n4twu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_ilutg")

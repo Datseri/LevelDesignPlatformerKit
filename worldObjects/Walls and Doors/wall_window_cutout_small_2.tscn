@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwr4rhqqwsxn3"]
+
+[ext_resource type="PackedScene" uid="uid://bxlej7mgq0s3u" path="res://models/prototyping/models/wall-window-cutout-small.glb" id="1_w4u7f"]
+[ext_resource type="Material" uid="uid://dvm1yo4wbfx7r" path="res://worldObjects/Materials/Material.tres" id="2_eu5bq"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_h4km7"]
+data = PackedVector3Array(-0.1, 1, -0.5, -0.1, 0, -0.5, 0.1, 0, -0.5, 0.1, 0, -0.5, 0.1, 1, -0.5, -0.1, 1, -0.5, 0.1, 1, 0.5, 0.1, 0, 0.5, -0.1, 0, 0.5, -0.1, 0, 0.5, -0.1, 1, 0.5, 0.1, 1, 0.5, -0.1, 1, -0.5, 0.1, 1, -0.5, 0.1, 1, 0.5, 0.1, 1, 0.5, -0.1, 1, 0.5, -0.1, 1, -0.5, -0.1, 0.7, 0.1, -0.1, 0.3, 0.1, 0.1, 0.3, 0.1, 0.1, 0.3, 0.1, 0.1, 0.7, 0.1, -0.1, 0.7, 0.1, -0.1, 0.7, 0.1, 0.1, 0.7, 0.1, 0.1, 0.7, -0.1, 0.1, 0.7, -0.1, -0.1, 0.7, -0.1, -0.1, 0.7, 0.1, 0.1, 0.7, -0.1, 0.1, 0.3, -0.1, -0.1, 0.3, -0.1, -0.1, 0.3, -0.1, -0.1, 0.7, -0.1, 0.1, 0.7, -0.1, -0.1, 0, 0.5, 0.1, 0, 0.5, 0.1, 0, -0.5, 0.1, 0, -0.5, -0.1, 0, -0.5, -0.1, 0, 0.5, -0.1, 0.3, -0.1, 0.1, 0.3, -0.1, 0.1, 0.3, 0.1, 0.1, 0.3, 0.1, -0.1, 0.3, 0.1, -0.1, 0.3, -0.1, -0.1, 0, -0.5, -0.1, 1, -0.5, -0.1, 0.3, -0.1, -0.1, 0.3, -0.1, -0.1, 0, 0.5, -0.1, 0, -0.5, -0.1, 0.7, -0.1, -0.1, 0.3, -0.1, -0.1, 1, -0.5, -0.1, 0.3, -0.1, -0.1, 0.3, 0.1, -0.1, 0, 0.5, -0.1, 1, -0.5, -0.1, 1, 0.5, -0.1, 0.7, -0.1, -0.1, 0.3, 0.1, -0.1, 0.7, 0.1, -0.1, 0, 0.5, -0.1, 1, 0.5, -0.1, 0.7, 0.1, -0.1, 0.7, -0.1, -0.1, 1, 0.5, -0.1, 0, 0.5, -0.1, 0.7, 0.1, 0.1, 1, -0.5, 0.1, 0, -0.5, 0.1, 0.7, -0.1, 0.1, 0.7, -0.1, 0.1, 1, 0.5, 0.1, 1, -0.5, 0.1, 0.3, -0.1, 0.1, 0.7, -0.1, 0.1, 0, -0.5, 0.1, 0.7, -0.1, 0.1, 0.7, 0.1, 0.1, 1, 0.5, 0.1, 0, -0.5, 0.1, 0, 0.5, 0.1, 0.3, -0.1, 0.1, 0.7, 0.1, 0.1, 0.3, 0.1, 0.1, 1, 0.5, 0.1, 0, 0.5, 0.1, 0.3, 0.1, 0.1, 0.3, -0.1, 0.1, 0, 0.5, 0.1, 1, 0.5, 0.1, 0.3, 0.1)
+
+[node name="wall-window-cutout-small2" instance=ExtResource("1_w4u7f")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="wall-window-cutout-small" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_eu5bq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_h4km7")
