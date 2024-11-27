@@ -205,7 +205,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2429, -2.57995, -0.552409
 size = Vector3(69.1781, 0.56543, 79.6923)
 
 [node name="Player" parent="." node_paths=PackedStringArray("view") instance=ExtResource("2_gslbj")]
-transform = Transform3D(0.962265, 0, 0.272112, 0, 1, 0, -0.272112, 0, 0.962265, -159.715, 6.25604, 148.306)
+transform = Transform3D(0.962265, 0, 0.272112, 0, 1, 0, -0.272112, 0, 0.962265, -158.966, 6.25604, -18.3375)
 view = NodePath("../View")
 
 [node name="View" type="Node3D" parent="." node_paths=PackedStringArray("target") groups=["View"]]
