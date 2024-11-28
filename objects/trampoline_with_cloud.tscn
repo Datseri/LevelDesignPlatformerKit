@@ -1,8 +1,9 @@
-[gd_scene load_steps=16 format=4 uid="uid://diidlf6s18nk4"]
+[gd_scene load_steps=17 format=4 uid="uid://diidlf6s18nk4"]
 
 [ext_resource type="PackedScene" uid="uid://biyd6x403gvny" path="res://models/core_models/platform-falling.glb" id="1_3fjn6"]
-[ext_resource type="Script" path="res://objects/platform_falling.gd" id="2_sfty6"]
+[ext_resource type="Script" path="res://objects/cloud.gd" id="2_j22ur"]
 [ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="3_cmv87"]
+[ext_resource type="PackedScene" uid="uid://ytqajrdi7fqj" path="res://objects/trampoline.tscn" id="3_ri4bt"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_t551e"]
 size = Vector3(2, 0.1, 2)
@@ -141,8 +142,8 @@ shadow_mesh = SubResource("ArrayMesh_jfptp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gtbio"]
 
-[node name="platform-falling" instance=ExtResource("1_3fjn6")]
-script = ExtResource("2_sfty6")
+[node name="platform-cloud" instance=ExtResource("1_3fjn6")]
+script = ExtResource("2_j22ur")
 
 [node name="Area3D" type="Area3D" parent="." index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
@@ -166,12 +167,15 @@ libraries = {
 }
 
 [node name="cube2" type="MeshInstance3D" parent="." index="4"]
-transform = Transform3D(2.18, 0, 0, 0, 1, 0, 0, 0, 2.18, 0.0140651, -0.411765, -0.0232955)
+transform = Transform3D(2.975, 0, 0, 0, 0.99, 0, 0, 0, 2.975, 0.0140651, -0.0355974, -0.0232955)
 visibility_range_end = 4096.0
 visibility_range_end_margin = 2.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_6480q")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_gtbio")
+
+[node name="trampoline" parent="." index="5" instance=ExtResource("3_ri4bt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00475, 0)
 
 [connection signal="body_entered" from="Area3D" to="." method="_on_body_entered"]
