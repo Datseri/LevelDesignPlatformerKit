@@ -7,5 +7,4 @@ albedo_texture = ExtResource("1_iqp8s")
 metallic_specular = 0.0
 uv1_offset = Vector3(1.24, 0, 0)
 distance_fade_mode = 1
-distance_fade_min_distance = 4.0
-distance_fade_max_distance = 7.0
+distance_fade_min_distance = 5.0
