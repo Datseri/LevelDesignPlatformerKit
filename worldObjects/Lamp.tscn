@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://d045ufinsawhb"]
+
+[ext_resource type="PackedScene" uid="uid://hi8deqbl1r3q" path="res://models/prototyping/models/floor-diagonal.glb" id="1_p7cfl"]
+[ext_resource type="PackedScene" uid="uid://bxsm1nm6ybfha" path="res://models/prototyping/models/wall-corner-rounded-low.glb" id="2_7hots"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7eyc4"]
+albedo_color = Color(0.976471, 0.972549, 0.658824, 1)
+
+[node name="floor-diagonal2" instance=ExtResource("1_p7cfl")]
+
+[node name="floor-diagonal" parent="." index="0"]
+transform = Transform3D(0.636396, 1.15225e-08, 0.636396, 0.636396, -2.78178e-08, -0.636396, 1.15225e-08, 0.9, -2.78178e-08, 0, -0.0497924, -0.101177)
+surface_material_override/0 = SubResource("StandardMaterial3D_7eyc4")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00308722, 0.12096, 0)
+light_color = Color(0.510407, 0.507272, 0, 1)
+light_energy = 11.826
+
+[node name="wall-corner-rounded-low2" parent="." index="2" instance=ExtResource("2_7hots")]
+transform = Transform3D(0.742462, 1.34429e-08, 0.742462, 0.742462, -3.24541e-08, -0.742462, 1.34429e-08, 1.05, -3.24541e-08, 0, 0, -0.523588)

@@ -10,11 +10,12 @@ uv1_offset = Vector3(2.97, 0, 0)
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8y38s"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_cypsh"]
-size = Vector3(2, 0.5, 2)
+size = Vector3(3.17627, 0.755798, 3.16022)
 
 [node name="platform-moving" instance=ExtResource("1_wvq4c")]
 
 [node name="platform-falling2" parent="." index="0"]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
 surface_material_override/0 = SubResource("StandardMaterial3D_xec8c")
 
 [node name="AnimatableBody3D" type="AnimatableBody3D" parent="." index="1"]
@@ -23,4 +24,5 @@ physics_material_override = SubResource("PhysicsMaterial_8y38s")
 sync_to_physics = false
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020752, 0.127899, 0.0342712)
 shape = SubResource("BoxShape3D_cypsh")
