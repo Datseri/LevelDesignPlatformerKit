@@ -269,7 +269,7 @@ fov = 40.0
 [node name="World" type="Node3D" parent="."]
 
 [node name="flag" parent="World" instance=ExtResource("6_pp6hn")]
-transform = Transform3D(1.41421, 0, -1.41421, 0, 2, 0, 1.41421, 0, 1.41421, -161.01, 22.5262, 207.903)
+transform = Transform3D(1.41421, 0, -1.41421, 0, 2, 0, 1.41421, 0, 1.41421, -160.143, 22.5262, 207.903)
 speedrun_mode = true
 
 [node name="player_kill_volume" parent="World" instance=ExtResource("9_ainxv")]
@@ -484,47 +484,47 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145.377, 8.3356, 3.01197)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.9558, 2.20127, -8.90485)
 
 [node name="platform-cloud" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 3.71135, 154.373)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 3.71135, 154.373)
 script = null
 
 [node name="platform-cloud2" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -161.276, 5.14227, 158.928)
+transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -160.048, 5.14227, 158.928)
 script = null
 
 [node name="platform-cloud3" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 6.60411, 163.237)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 6.60411, 163.237)
 script = null
 
 [node name="platform-cloud4" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 8.26793, 167.541)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 8.26793, 167.541)
 script = null
 
 [node name="platform-cloud5" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -161.276, 9.69885, 172.054)
+transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -160.048, 9.69885, 172.054)
 script = null
 
 [node name="platform-cloud6" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 11.1607, 176.081)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 11.1607, 176.081)
 script = null
 
 [node name="platform-cloud7" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 12.9246, 180.512)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 12.9246, 180.512)
 script = null
 
 [node name="platform-cloud8" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -161.276, 14.3555, 185.14)
+transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -160.048, 14.3555, 185.14)
 script = null
 
 [node name="platform-cloud9" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 15.8174, 189.477)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 15.8174, 189.477)
 script = null
 
 [node name="platform-cloud10" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -161.276, 17.0334, 194.344)
+transform = Transform3D(0.992269, 0, 0.124104, 0, 1, 0, -0.124104, 0, 0.992269, -160.048, 17.0334, 194.344)
 script = null
 
 [node name="platform-cloud11" parent="World/Platforms" instance=ExtResource("40_cql3l")]
-transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -161.276, 18.4953, 198.141)
+transform = Transform3D(0.987688, 0, -0.156434, 0, 1, 0, 0.156434, 0, 0.987688, -160.048, 18.4953, 198.141)
 script = null
 
 [node name="Moving platforms" type="Node" parent="World"]
@@ -1025,6 +1025,252 @@ transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037
 
 [node name="cube351" parent="World/Clouds" instance=ExtResource("14_o1vte")]
 transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037, -1.56639, 0.189001, 1.87436, -168.211, -29.9695, -14.051)
+
+[node name="cube371" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -209.518, -28.4751, 106.995)
+
+[node name="cube372" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -205.235, -28.5007, 113.851)
+
+[node name="cube373" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -210.977, -28.4751, 97.6803)
+
+[node name="cube374" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -204.36, -28.4751, 99.5056)
+
+[node name="cube375" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.36611, 0.593012, 0.228856, -0.51317, 2.30265, -0.661037, -0.375096, 0.590466, 2.34801, -207.656, -28.5007, 95.8135)
+
+[node name="cube376" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -213.188, -28.4751, 68.5982)
+
+[node name="cube377" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -206.571, -28.4751, 70.4235)
+
+[node name="cube378" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.36611, 0.593012, 0.228856, -0.51317, 2.30265, -0.661037, -0.375096, 0.590466, 2.34801, -209.867, -28.5007, 66.7314)
+
+[node name="cube379" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -225.764, -25.7663, 107.029)
+
+[node name="cube380" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -231.21, -25.7663, 101.009)
+
+[node name="cube381" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -226.314, -25.7663, 96.1979)
+
+[node name="cube382" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -222.031, -25.7919, 103.054)
+
+[node name="cube383" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -230.095, -25.7919, 103.982)
+
+[node name="cube384" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -231.161, -25.7919, 97.2008)
+
+[node name="cube385" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-0.977084, -0.9817, -2.66112, -0.628372, 2.81957, -0.809433, 2.76595, 0.293763, -1.12394, -193.365, -28.5905, 82.2805)
+
+[node name="cube386" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -198.4, -28.5905, 109.261)
+
+[node name="cube387" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-0.977084, -0.9817, -2.66112, -0.628372, 2.81957, -0.809433, 2.76595, 0.293763, -1.12394, -184.074, -28.5905, 87.8757)
+
+[node name="cube388" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.37314, -0.271246, -2.01083, -0.51317, 2.30265, -0.661037, 1.96308, 0.791669, 1.23373, -192.153, -28.6161, 87.5974)
+
+[node name="cube389" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -197.286, -28.6161, 112.233)
+
+[node name="cube390" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -198.351, -28.6161, 105.452)
+
+[node name="cube391" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -199.808, -28.4751, 91.8199)
+
+[node name="cube392" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -201.685, -28.4751, 83.9223)
+
+[node name="cube393" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -211.367, -28.4751, 81.6711)
+
+[node name="cube394" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -171.575, -28.5007, 94.9463)
+
+[node name="cube395" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.8306, 0.812987, 1.41083, -0.51317, 2.30265, -0.661037, -1.54534, 0.198407, 1.89079, -202.138, -28.5007, 87.0642)
+
+[node name="cube396" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.8306, 0.812987, 1.41083, -0.51317, 2.30265, -0.661037, -1.54534, 0.198407, 1.89079, -199.809, -28.5007, 80.6072)
+
+[node name="cube397" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -178.109, -28.4751, 100.388)
+
+[node name="cube398" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -170.511, -28.4751, 103.244)
+
+[node name="cube399" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -172.658, -28.4751, 109.764)
+
+[node name="cube400" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -179.606, -28.5007, 105.632)
+
+[node name="cube401" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -172.863, -28.5007, 101.113)
+
+[node name="cube402" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -168.809, -28.5007, 106.652)
+
+[node name="cube403" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -195.279, -25.7663, 95.0594)
+
+[node name="cube404" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -187.68, -25.7663, 97.9152)
+
+[node name="cube405" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -189.828, -25.7663, 104.435)
+
+[node name="cube406" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -196.776, -25.7919, 100.303)
+
+[node name="cube407" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -190.033, -25.7919, 95.784)
+
+[node name="cube408" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -185.979, -25.7919, 101.323)
+
+[node name="cube409" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -191.177, -28.5905, 109.987)
+
+[node name="cube410" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -183.578, -28.5905, 112.843)
+
+[node name="cube411" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -185.726, -28.5905, 119.363)
+
+[node name="cube412" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -192.674, -28.6161, 115.231)
+
+[node name="cube413" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -185.93, -28.6161, 110.711)
+
+[node name="cube414" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -181.877, -28.6161, 116.251)
+
+[node name="cube415" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.85125, 0.392458, -0.846372, -0.628372, 2.81957, -0.809433, 0.68958, 0.946578, 2.76197, -215.221, -29.9439, 78.6462)
+
+[node name="cube416" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037, -1.56639, 0.189001, 1.87436, -214.673, -29.9695, 86.7115)
+
+[node name="cube417" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037, -1.56639, 0.189001, 1.87436, -219.968, -29.9695, 77.2474)
+
+[node name="cube418" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -174.803, -28.4751, 122.116)
+
+[node name="cube419" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -170.52, -28.5007, 128.972)
+
+[node name="cube420" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -176.262, -28.4751, 112.801)
+
+[node name="cube421" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -169.645, -28.4751, 114.627)
+
+[node name="cube422" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.36611, 0.593012, 0.228856, -0.51317, 2.30265, -0.661037, -0.375096, 0.590466, 2.34801, -172.941, -28.5007, 110.935)
+
+[node name="cube423" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -178.473, -28.4751, 83.7193)
+
+[node name="cube424" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.05901, -0.165681, -2.17556, -0.628372, 2.81957, -0.809433, 2.08942, 1.01123, 1.90047, -171.856, -28.4751, 85.5446)
+
+[node name="cube425" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.36611, 0.593012, 0.228856, -0.51317, 2.30265, -0.661037, -0.375096, 0.590466, 2.34801, -175.152, -28.5007, 81.8525)
+
+[node name="cube432" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-0.977084, -0.9817, -2.66112, -0.628372, 2.81957, -0.809433, 2.76595, 0.293763, -1.12394, -158.65, -28.5905, 97.4016)
+
+[node name="cube433" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.83989, 0.792115, 0.554609, -0.628372, 2.81957, -0.809433, -0.734974, 0.650066, 2.835, -163.685, -28.5905, 124.382)
+
+[node name="cube434" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-0.977084, -0.9817, -2.66112, -0.628372, 2.81957, -0.809433, 2.76595, 0.293763, -1.12394, -149.359, -28.5905, 102.997)
+
+[node name="cube435" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.37314, -0.271246, -2.01083, -0.51317, 2.30265, -0.661037, 1.96308, 0.791669, 1.23373, -157.438, -28.6161, 102.719)
+
+[node name="cube436" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -162.571, -28.6161, 127.354)
+
+[node name="cube437" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.860945, 0.808131, 2.14667, -0.51317, 2.30265, -0.661037, -2.23561, -0.217343, 0.978433, -163.636, -28.6161, 120.573)
+
+[node name="cube438" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -165.093, -28.4751, 106.941)
+
+[node name="cube439" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -166.97, -28.4751, 99.0434)
+
+[node name="cube440" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.84309, 0.381495, -0.878227, -0.628372, 2.81957, -0.809433, 0.722477, 0.951048, 2.752, -176.652, -28.4751, 96.7923)
+
+[node name="cube442" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.8306, 0.812987, 1.41083, -0.51317, 2.30265, -0.661037, -1.54534, 0.198407, 1.89079, -167.423, -28.5007, 102.185)
+
+[node name="cube443" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.8306, 0.812987, 1.41083, -0.51317, 2.30265, -0.661037, -1.54534, 0.198407, 1.89079, -165.094, -28.5007, 95.7283)
+
+[node name="cube447" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -144.891, -28.5007, 120.753)
+
+[node name="cube450" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -160.564, -25.7663, 110.181)
+
+[node name="cube451" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -152.965, -25.7663, 113.036)
+
+[node name="cube452" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -155.113, -25.7663, 119.556)
+
+[node name="cube453" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -162.061, -25.7919, 115.424)
+
+[node name="cube454" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -155.318, -25.7919, 110.905)
+
+[node name="cube455" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -151.264, -25.7919, 116.444)
+
+[node name="cube456" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -156.462, -28.5905, 125.108)
+
+[node name="cube457" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -148.863, -28.5905, 127.964)
+
+[node name="cube458" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(-2.18764, -1.00191, -1.79176, -0.628372, 2.81957, -0.809433, 1.95433, -0.214951, -2.26592, -151.011, -28.5905, 134.484)
+
+[node name="cube459" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -157.959, -28.6161, 130.352)
+
+[node name="cube460" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -151.215, -28.6161, 125.833)
+
+[node name="cube461" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(0.258898, -0.618769, -2.35639, -0.51317, 2.30265, -0.661037, 2.38163, 0.563417, 0.113719, -147.162, -28.6161, 131.372)
+
+[node name="cube462" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(2.85125, 0.392458, -0.846372, -0.628372, 2.81957, -0.809433, 0.68958, 0.946578, 2.76197, -180.506, -29.9439, 93.7673)
+
+[node name="cube463" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037, -1.56639, 0.189001, 1.87436, -179.958, -29.9695, 101.833)
+
+[node name="cube464" parent="World/Clouds" instance=ExtResource("14_o1vte")]
+transform = Transform3D(1.81263, 0.815226, 1.43259, -0.51317, 2.30265, -0.661037, -1.56639, 0.189001, 1.87436, -185.253, -29.9695, 92.3685)
 
 [node name="cube11" parent="World/Clouds" instance=ExtResource("14_o1vte")]
 transform = Transform3D(0.476646, 0.924607, 0.941422, -0.929853, 0.945559, -0.457882, -0.93624, -0.468385, 0.934042, -199.834, 15.0976, 86.1912)
@@ -1717,7 +1963,7 @@ transform = Transform3D(-1.92514, -1.23512, -2.48172, 2.4607e-08, 3.02148, -1.50
 transform = Transform3D(-1.35126, -2.60674, -1.66422, -2.1423, 2.09879, -1.54799, 2.23053, 0.436596, -2.49494, -133.986, 2.40599, 173.966)
 
 [node name="cube255" parent="World/Clouds" instance=ExtResource("36_w0e6i")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.924, 19.5267, 206.093)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.057, 19.5267, 206.093)
 
 [node name="coin" parent="World/Clouds" instance=ExtResource("13_3sr5u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -158.931, 11.1342, -2.30672)
@@ -1752,6 +1998,9 @@ transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -170.736, 5.19016, 40.5
 
 [node name="checkpoint3" parent="World/Checkpoints" instance=ExtResource("10_uvbra")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -196.893, 5.32502, 87.3983)
+
+[node name="checkpoint4" parent="World/Checkpoints" instance=ExtResource("10_uvbra")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -160.062, 5.13881, 139.199)
 
 [node name="checkpoint" parent="World/Checkpoints" instance=ExtResource("10_uvbra")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -145.544, 8.04349, 15.5186)
@@ -3992,7 +4241,10 @@ transform = Transform3D(-0.33285, 0, 4.98891, 0, 5, 0, -4.98891, 0, -0.33285, -1
 transform = Transform3D(-0.33285, 0, 4.98891, 0, 5, 0, -4.98891, 0, -0.33285, -168.554, 5.13417, 143.907)
 
 [node name="tree-pine282" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
-transform = Transform3D(-4.65343, 0, 1.8291, 0, 5, 0, -1.8291, 0, -4.65343, -163.27, 5.13417, 147.011)
+transform = Transform3D(-4.65343, 0, 1.8291, 0, 5, 0, -1.8291, 0, -4.65343, -163.454, 5.13417, 146.241)
+
+[node name="tree-pine356" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
+transform = Transform3D(-4.93116, 0, -0.82687, 0, 5, 0, 0.82687, 0, -4.93116, -163.247, 5.13417, 149.288)
 
 [node name="tree-pine283" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
 transform = Transform3D(-0.33285, 0, 4.98891, 0, 5, 0, -4.98891, 0, -0.33285, -167.233, 5.13417, 147.128)
@@ -4000,8 +4252,11 @@ transform = Transform3D(-0.33285, 0, 4.98891, 0, 5, 0, -4.98891, 0, -0.33285, -1
 [node name="tree-pine284" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
 transform = Transform3D(-0.33285, 0, 4.98891, 0, 5, 0, -4.98891, 0, -0.33285, -165.665, 5.13417, 149.231)
 
+[node name="tree-pine355" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
+transform = Transform3D(3.11844, 0, 3.90837, 0, 5, 0, -3.90837, 0, 3.11844, -168.323, 5.13417, 148.963)
+
 [node name="tree-pine312" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
-transform = Transform3D(-4.87382, 0, 1.11617, 0, 5, 0, -1.11617, 0, -4.87382, -153.781, 5.13417, 151.236)
+transform = Transform3D(-4.87382, 0, 1.11617, 0, 5, 0, -1.11617, 0, -4.87382, -153.899, 5.13417, 152.396)
 
 [node name="tree-pine313" parent="World/Forest Area" instance=ExtResource("48_yupn7")]
 transform = Transform3D(-4.87382, 0, 1.11617, 0, 5, 0, -1.11617, 0, -4.87382, -151.315, 5.13417, 150.338)
@@ -5457,9 +5712,6 @@ transform = Transform3D(-3.71049, 0, -1.49409, 0, 4, 0, 1.49409, 0, -3.71049, -1
 [node name="grass83" parent="World/Flowers" instance=ExtResource("44_6mx57")]
 transform = Transform3D(-2.54351, 0, -3.08717, 0, 4, 0, 3.08717, 0, -2.54351, -153.066, 5.13417, 149.68)
 
-[node name="mushrooms83" parent="World/Flowers" instance=ExtResource("45_vdu58")]
-transform = Transform3D(-3.74867, 0, -1.39553, 0, 4, 0, 1.39553, 0, -3.74867, -154.149, 5.13417, 151.74)
-
 [node name="mushrooms84" parent="World/Flowers" instance=ExtResource("45_vdu58")]
 transform = Transform3D(-0.655714, 0, -3.94589, 0, 4, 0, 3.94589, 0, -0.655714, -149.008, 5.13417, 149.848)
 
@@ -6216,6 +6468,18 @@ transform = Transform3D(-0.702086, 0, -3.9379, 0, 4, 0, 3.9379, 0, -0.702086, -1
 [node name="mushrooms76" parent="World/Flowers" instance=ExtResource("45_vdu58")]
 transform = Transform3D(-2.5821, 0, -3.05496, 0, 4, 0, 3.05496, 0, -2.5821, -181.692, 5.13417, 134.525)
 
+[node name="flowers-tall64" parent="World/Flowers" instance=ExtResource("42_1uj4x")]
+transform = Transform3D(-0.428389, 0, -3.977, 0, 4, 0, 3.977, 0, -0.428389, -172.435, 4.90039, 147.962)
+
+[node name="flowers160" parent="World/Flowers" instance=ExtResource("43_7tsc3")]
+transform = Transform3D(0.0397918, 0, 3.9998, 0, 4, 0, -3.9998, 0, 0.0397918, -174.256, 5.13417, 145.766)
+
+[node name="mushrooms83" parent="World/Flowers" instance=ExtResource("45_vdu58")]
+transform = Transform3D(-2.5821, 0, -3.05496, 0, 4, 0, 3.05496, 0, -2.5821, -171.502, 5.13417, 144.953)
+
+[node name="mushrooms137" parent="World/Flowers" instance=ExtResource("45_vdu58")]
+transform = Transform3D(2.97132, 0, -2.67793, 0, 4, 0, 2.67793, 0, 2.97132, -170.094, 5.13417, 147.215)
+
 [node name="plant73" parent="World/Flowers" instance=ExtResource("46_kckag")]
 transform = Transform3D(-0.817369, 0, -3.9156, 0, 4, 0, 3.9156, 0, -0.817369, -179.038, 5.13417, 136.108)
 
@@ -6901,6 +7165,41 @@ distance_fade_enabled = true
 spot_range = 6.15409
 spot_angle = 66.2579
 
+[node name="SpotLight3D38" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -170.501, 7.57481, 50.568)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D39" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -170.501, 7.57481, 55.7679)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D40" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -170.501, 7.57481, 60.4703)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D41" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -170.501, 7.57481, 65.6702)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D42" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -170.501, 7.57481, 68.613)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
 [node name="SpotLight3D26" type="SpotLight3D" parent="World/Light"]
 transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -176.846, -2.2641, 68.613)
 light_energy = 1.766
@@ -6910,6 +7209,27 @@ spot_angle = 66.2579
 
 [node name="SpotLight3D27" type="SpotLight3D" parent="World/Light"]
 transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -184.084, -2.2641, 68.613)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D35" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -175.084, 8.26614, 68.613)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D36" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -176.846, 8.26614, 68.613)
+light_energy = 1.766
+distance_fade_enabled = true
+spot_range = 6.15409
+spot_angle = 66.2579
+
+[node name="SpotLight3D37" type="SpotLight3D" parent="World/Light"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, -184.084, 8.26614, 68.613)
 light_energy = 1.766
 distance_fade_enabled = true
 spot_range = 6.15409
