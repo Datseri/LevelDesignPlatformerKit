@@ -28,4 +28,6 @@ sync_to_physics = false
 transform = Transform3D(2.305, 0, 0, 0, 2.305, 0, 0, 0, 2.305, 0, 0, 0)
 shape = SubResource("BoxShape3D_gjnwj")
 
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="3"]
+
 [editable path="DamageDealerArea3D"]
