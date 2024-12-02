@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8lccy2vho8kk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qpg75"]
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 0.278431, 1)
+emission_enabled = true
+emission = Color(0.937172, 0.906145, 0.492842, 1)
+emission_energy_multiplier = 11.25
+
+[sub_resource type="SphereMesh" id="SphereMesh_ursw6"]
+material = SubResource("StandardMaterial3D_qpg75")
+
+[node name="CPUParticles3D" type="CPUParticles3D"]
+amount = 70
+lifetime = 10.0
+preprocess = 50.0
+speed_scale = 0.5
+randomness = 1.0
+lifetime_randomness = 0.23
+mesh = SubResource("SphereMesh_ursw6")
+emission_shape = 1
+emission_sphere_radius = 10.0
+emission_colors = PackedColorArray(0.924903, 0.782284, 0.196638, 1, 1, 0.367788, 0.300217, 1)
+direction = Vector3(0, 1, 0)
+spread = 180.0
+flatness = 0.22
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 0.2
+initial_velocity_max = 0.5
+angular_velocity_min = 0.2
+angular_velocity_max = 0.5
+scale_amount_min = 0.06
+scale_amount_max = 0.15
